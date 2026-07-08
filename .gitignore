@@ -1,0 +1,106 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+
+# ==============================
+# Node.js / React
+# ==============================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+# (Optional) Keep recommended extensions later
+!.vscode/extensions.json
+
+# ==============================
+# macOS
+# ==============================
+
+.DS_Store
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+
+# ==============================
+# Database
+# ==============================
+
+*.sqlite3
+*.db
+
+# PostgreSQL local files
+postgres_data/
+
+# ==============================
+# Coverage
+# ==============================
+
+.coverage
+htmlcov/
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+.cache/
+
+# ==============================
+# AI
+# ==============================
+
+openai_key.txt
+secrets.json
+
+# ==============================
+# IDE
+# ==============================
+
+.idea/
+
+# ==============================
+# Misc
+# ==============================
+
+*.swp
+*.swo
+Thumbs.db
